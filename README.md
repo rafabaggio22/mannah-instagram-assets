@@ -1,12 +1,18 @@
-# Mannah Capital · Instagram Assets
+# Mannah Instagram Assets
 
-Repositório público das imagens publicadas no @mannahcapital.
+CDN de imagens para postagem automática no Instagram da Mannah Capital S/A.
 
-Hospedado em GitHub raw para servir como CDN gratuita do Instagram Graph API.
+As imagens em `posts/` são consumidas via `raw.githubusercontent.com` pelo
+publicador automático.
 
-URL base:
+URL base pública:
 ```
-https://raw.githubusercontent.com/SEU_USUARIO/mannah-instagram-assets/main/posts
+https://raw.githubusercontent.com/<USERNAME>/mannah-instagram-assets/main/posts/
 ```
 
-Cada PNG é 2160×2700 (1080×1350 em 2x).
+## Repositório público intencional
+
+Este repositório **deve ser público** — a API do Instagram (Meta Graph API)
+exige URLs HTTP acessíveis sem autenticação para baixar e publicar as imagens.
+
+Não armazenar credenciais, tokens ou dados sensíveis aqui.
